@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Chatroom</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPlainTextEdit" name="text_msg">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>330</y>
+      <width>481</width>
+      <height>90</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_send">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>420</y>
+      <width>91</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>发送</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lab_user">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>430</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>用户名:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_look_key">
+    <property name="geometry">
+     <rect>
+      <x>229</x>
+      <y>420</y>
+      <width>131</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>输入解密秘钥</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lab_name">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>430</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_decode">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>420</y>
+      <width>91</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>解密</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="list_history">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>31</y>
+      <width>481</width>
+      <height>301</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
